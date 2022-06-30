@@ -89,29 +89,56 @@ body {
     color: white;
     font-size: 12px;
     padding: 15px 10px;
+    font-weight: 700;
 
 }
 
-.input__buttons{
+.input__buttons,
+.rooms__buttons {
     display: flex;
     gap: 20px;
 }
 
 .icon__microphone,
-.icon__video {
+.icon__video,
+.icon {
     display: flex;
     gap: 30px;
-    font-size: 20px;
+    font-size: 25px;
     padding-left: 9px;
+}
+
+.bottons-gap {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.manage {
+    
+    
+    align-items: center;
+
 }
 
 .fa-angle-up {
     position: relative;
-    top: 12px;
+    top: 17px;
     font-size: 12px;
 }
 
-.icon__video{
+.icon__video {
     gap: 40px;
     padding-left: 20px;
 }
+
+.text__invite,
+.text__chat{
+    padding-left: 8px;
+}
+
+.fa-share-from-square{
+    padding-left: 12px;
+    color: chartreuse;
+}
+
