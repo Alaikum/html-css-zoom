@@ -5,7 +5,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-
+body {
+    background-color: #222222;
+    /* ho dato lo sfondo del footer al body, così che non restano parti bianche */
+}
 
 
 /* CSS CONTAINER  */
@@ -16,7 +19,8 @@
 .container {
     width: 100%;
     height: 100vh;
-    background-color: aquamarine;
+
+
 }
 
 .photo__container {
@@ -57,21 +61,56 @@
 /* CSS PHOTO BUTTONS  */
 
 
-.photo__buttons{
+.photo__buttons {
 
-color: white;
-font-size: 12px;
-position: absolute;
-top: 0;
-right: 0;
-display: flex;
-margin: 5px 5px ;
-gap: 10px;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    margin: 5px 5px;
+    gap: 10px;
 
 }
 
-.photo__buttons>p{
+.photo__buttons>p {
     background-color: #4A4A4A;
     padding: 5px 3px;
     border-radius: 5px;
+}
+
+
+/* CSS FOOTER  */
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 12px;
+    padding: 15px 10px;
+
+}
+
+.input__buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.icon__microphone,
+.icon__video {
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+    padding-left: 9px;
+}
+
+.fa-angle-up {
+    position: relative;
+    top: 5px;
+}
+
+.icon__video{
+    gap: 40px;
+    padding-left: 20px;
 }
