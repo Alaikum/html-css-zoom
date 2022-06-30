@@ -133,7 +133,8 @@ body {
 }
 
 .text__invite,
-.text__chat{
+.text__chat,
+.text__more{
     padding-left: 8px;
 }
 
@@ -142,3 +143,6 @@ body {
     color: chartreuse;
 }
 
+.fa-border-all{
+    padding-left: 25px;
+}
